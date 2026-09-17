@@ -48,8 +48,6 @@ final class ResourceTestViewController: UIViewController {
     }
 
     @objc private func onAlertTapped() {
-        AlertState.shared.title = "弹窗测试"
-        AlertState.shared.message = "这是来自 demoResource 的弹窗"
-        AlertState.shared.show = true
+        DemoAlertManager.shared.show(title: "弹窗测试", message: "这是来自 demoResource 的弹窗")
     }
 }
