@@ -24,7 +24,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		C752428A305A742C00A867F4 /* Exceptions for "Frameworks" folder in "Embed Frameworks" phase from "sohi" target */ = {
+		C76FD9E6305C12B00082326D /* Exceptions for "Frameworks" folder in "Embed Frameworks" phase from "sohi" target */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			attributesByRelativePath = {
 				demoResource.framework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
@@ -40,7 +40,7 @@
 		C752425330593EF500A867F4 /* Frameworks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C752428A305A742C00A867F4 /* Exceptions for "Frameworks" folder in "Embed Frameworks" phase from "sohi" target */,
+				C76FD9E6305C12B00082326D /* Exceptions for "Frameworks" folder in "Embed Frameworks" phase from "sohi" target */,
 			);
 			explicitFileTypes = {
 				demoResource.framework = wrapper.framework;
