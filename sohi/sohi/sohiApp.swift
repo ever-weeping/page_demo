@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct sohiApp: App {
-    var body: some Scene {
+    var body: some Scene { // 返回一个 Scene，具体是什么 Scene 你不用管
         WindowGroup {
             ContentView()
         }

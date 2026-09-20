@@ -8,6 +8,16 @@ import demoResource
 
 struct ContentView: View {
     var body: some View {
+//        TabView{
+//            SearchView()
+//                .tabItem {
+//                    Label("搜索", systemImage: "magnifyingglass")
+//                }
+//            RootTabBarView()
+//                .tabItem {
+//                    Label("test",systemImage: "house")
+//                }
+//        }
         RootTabBarRepresentable()
             .ignoresSafeArea()
             .demoToast()

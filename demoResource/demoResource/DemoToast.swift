@@ -15,8 +15,8 @@ public enum DemoToastPosition {
 }
 
 public final class DemoToastManager: ObservableObject {
-    @Published public var message: String?
-    @Published public var position: DemoToastPosition = .center
+    @Published public var message: String?          // 变化即广播，驱动 @ObservedObject 的视图刷新（toast 显隐）
+    @Published public var position: DemoToastPosition = .center  // 同上，驱动 toast 位置变化
 
     public static let shared = DemoToastManager()
 
@@ -66,7 +66,7 @@ public struct DemoToastModifier: ViewModifier {
         )
     }
 
-    private func alignment(for pos: DemoToastPosition) -> Alignment {
+    private func alignment(for pos: DemoToastPosition) -> Alignment { // for是外部参数名，alignment：“对齐、排列、协调一致”
         switch pos {
         case .top: return .top
         case .center: return .center

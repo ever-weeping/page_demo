@@ -1,1 +1,6 @@
 *.xcuserstate
+# ... existing code ...
+*.xcuserstate
+Pods/
+Podfile.lock
+xcuserdata/

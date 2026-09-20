@@ -6,6 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		62D75D5C317C216F7E9590ED /* Pods_sohi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96999071A01C7B2DE0363F8C /* Pods_sohi.framework */; };
+		C732639E305CF6B90013AE96 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732639D305CF6B30013AE96 /* SearchView.swift */; };
+		C73263A0305CF95C0013AE96 /* RootTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C732639F305CF94F0013AE96 /* RootTabBarView.swift */; };
+		C76FDA06305C1A500082326D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76FD9FE305C1A500082326D /* Assets.xcassets */; };
+		C76FDA07305C1A500082326D /* AlertState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FD9FC305C1A500082326D /* AlertState.swift */; };
+		C76FDA08305C1A500082326D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FD9FD305C1A500082326D /* AppDelegate.swift */; };
+		C76FDA09305C1A500082326D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FD9FF305C1A500082326D /* ContentView.swift */; };
+		C76FDA0A305C1A500082326D /* HomeWaterfallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FDA00305C1A500082326D /* HomeWaterfallViewController.swift */; };
+		C76FDA0B305C1A500082326D /* ResourceTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FDA01305C1A500082326D /* ResourceTestViewController.swift */; };
+		C76FDA0C305C1A500082326D /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FDA02305C1A500082326D /* RootTabBarController.swift */; };
+		C76FDA0D305C1A500082326D /* sohiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FDA03305C1A500082326D /* sohiApp.swift */; };
+		C76FDA0E305C1A500082326D /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76FDA04305C1A500082326D /* WaterfallLayout.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		C7524289305A742B00A867F4 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,58 +35,77 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		96999071A01C7B2DE0363F8C /* Pods_sohi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sohi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C732639D305CF6B30013AE96 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C732639F305CF94F0013AE96 /* RootTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarView.swift; sourceTree = "<group>"; };
+		C76FD9FC305C1A500082326D /* AlertState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertState.swift; sourceTree = "<group>"; };
+		C76FD9FD305C1A500082326D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C76FD9FE305C1A500082326D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C76FD9FF305C1A500082326D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C76FDA00305C1A500082326D /* HomeWaterfallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWaterfallViewController.swift; sourceTree = "<group>"; };
+		C76FDA01305C1A500082326D /* ResourceTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTestViewController.swift; sourceTree = "<group>"; };
+		C76FDA02305C1A500082326D /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		C76FDA03305C1A500082326D /* sohiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sohiApp.swift; sourceTree = "<group>"; };
+		C76FDA04305C1A500082326D /* WaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
 		C7FBD7F6302C502300E9B880 /* sohi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sohi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E115CAE560969ADCACBB9C2C /* Pods-sohi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sohi.debug.xcconfig"; path = "Target Support Files/Pods-sohi/Pods-sohi.debug.xcconfig"; sourceTree = "<group>"; };
+		FA8153223C0CEE24B0459EF5 /* Pods-sohi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sohi.release.xcconfig"; path = "Target Support Files/Pods-sohi/Pods-sohi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		C76FD9E6305C12B00082326D /* Exceptions for "Frameworks" folder in "Embed Frameworks" phase from "sohi" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			attributesByRelativePath = {
-				demoResource.framework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
-			};
-			buildPhase = C7524289305A742B00A867F4 /* Embed Frameworks */;
-			membershipExceptions = (
-				demoResource.framework,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		C752425330593EF500A867F4 /* Frameworks */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C76FD9E6305C12B00082326D /* Exceptions for "Frameworks" folder in "Embed Frameworks" phase from "sohi" target */,
-			);
-			explicitFileTypes = {
-				demoResource.framework = wrapper.framework;
-			};
-			path = Frameworks;
-			sourceTree = "<group>";
-		};
-		C7FBD7F8302C502300E9B880 /* sohi */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = sohi;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C7FBD7F3302C502300E9B880 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D75D5C317C216F7E9590ED /* Pods_sohi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65DC2AA1389735E3C7DED174 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E115CAE560969ADCACBB9C2C /* Pods-sohi.debug.xcconfig */,
+				FA8153223C0CEE24B0459EF5 /* Pods-sohi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C76FDA05305C1A500082326D /* sohi */ = {
+			isa = PBXGroup;
+			children = (
+				C732639F305CF94F0013AE96 /* RootTabBarView.swift */,
+				C732639D305CF6B30013AE96 /* SearchView.swift */,
+				C76FD9FC305C1A500082326D /* AlertState.swift */,
+				C76FD9FD305C1A500082326D /* AppDelegate.swift */,
+				C76FD9FE305C1A500082326D /* Assets.xcassets */,
+				C76FD9FF305C1A500082326D /* ContentView.swift */,
+				C76FDA00305C1A500082326D /* HomeWaterfallViewController.swift */,
+				C76FDA01305C1A500082326D /* ResourceTestViewController.swift */,
+				C76FDA02305C1A500082326D /* RootTabBarController.swift */,
+				C76FDA03305C1A500082326D /* sohiApp.swift */,
+				C76FDA04305C1A500082326D /* WaterfallLayout.swift */,
+			);
+			path = sohi;
+			sourceTree = "<group>";
+		};
+		C76FDA15305C1B5C0082326D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96999071A01C7B2DE0363F8C /* Pods_sohi.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 		C7FBD7ED302C502300E9B880 = {
 			isa = PBXGroup;
 			children = (
-				C752425330593EF500A867F4 /* Frameworks */,
-				C7FBD7F8302C502300E9B880 /* sohi */,
+				C76FDA15305C1B5C0082326D /* Frameworks */,
+				C76FDA05305C1A500082326D /* sohi */,
 				C7FBD7F7302C502300E9B880 /* Products */,
+				65DC2AA1389735E3C7DED174 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,22 +124,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7FBD801302C502500E9B880 /* Build configuration list for PBXNativeTarget "sohi" */;
 			buildPhases = (
+				6B069E9B8DDEADDE66AB003E /* [CP] Check Pods Manifest.lock */,
 				C7FBD7F2302C502300E9B880 /* Sources */,
 				C7FBD7F3302C502300E9B880 /* Frameworks */,
 				C7FBD7F4302C502300E9B880 /* Resources */,
 				C7524289305A742B00A867F4 /* Embed Frameworks */,
+				91675FD9C8C01307A8DF6AEA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				C752425330593EF500A867F4 /* Frameworks */,
-				C7FBD7F8302C502300E9B880 /* sohi */,
-			);
 			name = sohi;
-			packageProductDependencies = (
-			);
 			productName = sohi;
 			productReference = C7FBD7F6302C502300E9B880 /* sohi.app */;
 			productType = "com.apple.product-type.application";
@@ -149,16 +179,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C76FDA06305C1A500082326D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B069E9B8DDEADDE66AB003E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sohi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91675FD9C8C01307A8DF6AEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sohi/Pods-sohi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sohi/Pods-sohi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sohi/Pods-sohi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7FBD7F2302C502300E9B880 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C76FDA07305C1A500082326D /* AlertState.swift in Sources */,
+				C732639E305CF6B90013AE96 /* SearchView.swift in Sources */,
+				C76FDA08305C1A500082326D /* AppDelegate.swift in Sources */,
+				C76FDA09305C1A500082326D /* ContentView.swift in Sources */,
+				C76FDA0A305C1A500082326D /* HomeWaterfallViewController.swift in Sources */,
+				C76FDA0B305C1A500082326D /* ResourceTestViewController.swift in Sources */,
+				C73263A0305CF95C0013AE96 /* RootTabBarView.swift in Sources */,
+				C76FDA0C305C1A500082326D /* RootTabBarController.swift in Sources */,
+				C76FDA0D305C1A500082326D /* sohiApp.swift in Sources */,
+				C76FDA0E305C1A500082326D /* WaterfallLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +375,7 @@
 		};
 		C7FBD802302C502500E9B880 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E115CAE560969ADCACBB9C2C /* Pods-sohi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +383,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KX99W63583;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
@@ -324,6 +413,7 @@
 		};
 		C7FBD803302C502500E9B880 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8153223C0CEE24B0459EF5 /* Pods-sohi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -331,6 +421,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KX99W63583;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
